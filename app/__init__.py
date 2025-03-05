@@ -12,5 +12,5 @@ db.init_app(app)
 migrate = Migrate(app,db)
 jwt = JWTManager(app)
 
-from app import models
 from app import routes
+from app import models
